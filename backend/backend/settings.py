@@ -129,5 +129,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # In the CORS_ORIGIN_WHITELIST code, you whitelisted localhost:8000 because you want the frontend
 # (which will be served on that port) of the application to interact with the API.
 CORS_ORIGIN_WHITELIST = [
-     'http://localhost:8000'
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
 ]
