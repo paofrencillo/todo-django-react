@@ -1,10 +1,12 @@
-export default function AddTodoButton() {
+import { Button } from "@material-tailwind/react";
+
+export default function ButtonColors() {
   return (
-    <div className="mt-5 flex justify-center">
-      <button
-        className="flex justify-center items-center select-none rounded-lg bg-pink-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-        type="button"
-        data-ripple-light="true"
+    <div className="flex flex-row justify-center items-center">
+      <Button
+        size="sm"
+        color="purple"
+        className="flex flex-row justify-center items-center mt-3"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +23,7 @@ export default function AddTodoButton() {
           />
         </svg>
         Add Task
-      </button>
+      </Button>
     </div>
   );
 }
