@@ -9,5 +9,5 @@ Currently, two official plugins are available:
 
 # Dependencies
 
-(1) Tailwind CSS: https://tailwindcss.com/docs/guides/vite \n
-(2) Axios: https://www.npmjs.com/package/axios
+- Tailwind CSS: https://tailwindcss.com/docs/guides/vite
+- Axios: https://www.npmjs.com/package/axios
